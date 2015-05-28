@@ -1,0 +1,535 @@
+
+/* CSS Document */
+
+* {	
+	margin:0px;	
+}
+
+
+body {
+	background-color:#E9F0F5;	
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:13px;		
+	margin:0px;
+	padding:0px;		
+  color: #555555;
+}
+
+
+h1{ font-size: 18pt; font-weight: bold; color: #333333; font-face: arial;}
+
+p{ margin: 3px 0px 8px 0px; }
+
+
+.d_vkladka{  
+  font-size: 12pt;
+  font-family: Arial;
+  width: 60px;
+  height: 60px;
+  margin: 0px 4px 0px 0px; 
+  float: left;
+  cursor: pointer;      
+  background-color: #eeeeee;
+  
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+
+#d_vkladka_podpis{  
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: Arial;
+  color: #FF5555;
+  width: 100%;
+  height: 20px;
+  padding: 12px; 
+  background-color: white;
+  border-bottom: 2px solid #999999;
+}
+
+.d_vkladka_cnt{
+  overflow-y:scroll;
+  width: 235px;
+  float: left;
+  height: 400px;
+  display: block;
+  box-shadow: 0 0 5px; 
+     
+}
+
+.d_gr{
+  font-size: 10pt;
+  padding: 6px;  
+  cursor: pointer;
+  background-color: #CADAC0;
+  margin: 1px;
+  height: 20px;
+}
+
+.d_gr .linkpokaz{
+  width: 30px;
+  height: 17px;  
+  float: right;
+  background-image:url('../img/maket/glaz.png');
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ballov{
+  font-size: 14pt;
+  color: #FFA82A;
+  text-color: #FFA82A;  
+  font-family: Arial;
+  font-weight: bold;
+}
+
+
+
+#d_logo{
+  position: fixed;
+  z-index: 2;
+  position: fixed;
+  top: 10px; left: 10px;     
+}
+
+
+#d_up_menu{
+  position: fixed;
+  z-index: 10;
+  width: 750px;
+  background-color: #eeeeee;      
+  position: fixed;
+  top: 0px; left: 240px;   
+  box-shadow: 0 0 5px;
+}
+
+#d_up_menu .d_prm{
+  height: 30px;
+  font-size: 12pt;
+  font-family: Arial;
+  width: 90px;
+  padding: 18px; 
+  float: left;  
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+#d_auto_zoom{
+  height: 51px;
+  width: 69px;
+  padding: 0px; 
+  float: roght;  
+  cursor: pointer;  
+  overflow: hidden;
+  margin: 10px 0px 10px 10px;  
+}
+#d_auto_zoom #d_zoom_on{
+  height: 51px;
+  width: 69px;
+  background-image: url("../img/maket/auto_zoom_on.png");
+}
+#d_auto_zoom #d_zoom_off{
+  height: 51px;
+  width: 69px;
+  background-image: url("../img/maket/auto_zoom_off.png");
+}
+
+
+
+
+
+
+
+.amenu{
+  background-color: #ffffff;
+  color: #FF5555;
+  border-bottom: 3px solid red;
+  
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter: none; /* IE 6-9 */
+}
+
+#d_priroda{
+  position: fixed;
+  z-index: 11;
+  width: 250px;
+  right: 0px;
+  top: 150px;          
+  height: 430px;
+}
+#d_aktiv{
+  position: fixed;
+  z-index: 22;
+  width: 252px;
+  right: 0px;
+  top: 580px;          
+  height: 62px;
+  background-color: white;
+  
+  display: none;
+
+}
+
+
+
+.d_vkl{
+
+  background-color: #ffffff;
+  font-size: 12pt;
+  font-family: Arial;
+  width: 100px;
+  height: 25px;
+  margin: 0px 0px 0px 5px; 
+  float: left;
+  cursor: pointer;
+  padding: 4px;  
+}
+
+table.rules{
+    border-top: 1px dotted #cccccc;
+}
+.rules td, .rules th{
+   border-bottom: 1px dotted #cccccc;
+}
+.rules th{color: #FFA82A;}
+   
+    
+.d_cnt{
+  overflow-y:scroll;
+  width: 235px;
+  float: left;
+  height: 400px;
+  display: none;
+  box-shadow: 0 0 5px;  
+}
+
+.acontent{
+  background-color: #ffffff;
+  padding: 8px;
+  color: black;  
+}
+
+
+
+
+.dend{
+  font-size: 10pt;
+  padding: 6px;
+  height: 24px;  
+  cursor: pointer;
+  background-color: #F7F1D9;
+  margin: 1px 1px 1px 6px;
+}
+
+.dend .linkinfo{
+  width: 20px;
+  height: 22px;  
+  float: right;
+  background-image:url('../img/maket/listok.png');
+  
+}
+
+
+.acontent{
+  font-size: 10pt;
+  padding: 8px;  
+  cursor: pointer;
+}
+.mover{
+  background-color:#FFCB80;
+}
+
+.event_over{
+  background-color:#F7F1D9;
+  background-image:url('../img/maket/strelki.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  
+}
+
+#d_infopage{
+  position: fixed;  
+  top: -1000px;
+  left: 350px;
+  z-index: 5;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 0 0 5px;  
+}
+.d_podmenu{
+  margin-bottom: 16px;
+}
+.punkt_podmenu{  cursor: pointer; }
+.punkt_podmenu:hover{   background-color: #eeeeee; }
+
+.vibrano{   
+  color: #FF5555;
+  border-bottom: 2px solid #FF5555;
+}
+
+#d_infopage .d_page{    
+    margin-top: 14px;
+    padding: 2px;
+    width: 98%;
+    max-height: 450px;    
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+   
+                        
+
+
+
+
+#d_info_close{
+  float:right;
+  width: 100px;
+  background-color: silver;
+  font-size: 10pt;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+#d_info_head{
+  margin: 20px 20px 15px 20px;
+  font-size: 16pt;
+}
+
+#d_info_cont{
+  margin: 20px 20px 15px 20px;
+  font-size: 11pt;
+
+}
+
+.kls_name{
+  color: #ffffff;
+  background-color: #555555;
+  font-size: 12pt;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#d_infoevent{
+  position: fixed;  
+  top: 120px;
+  left: -700px;
+  z-index: 5;
+  width: 600px;
+  
+  background-color: white;
+  box-shadow: 0 0 5px;
+  padding-left: 40px;  
+  padding-bottom: 6px;
+}
+
+
+#d_infoevent_close{
+  float:right;
+  width: 100px;
+  background-color: silver;
+  font-size: 10pt;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+#d_infoevent .h{
+  margin: 20px 20px 15px 0px;
+  font-size: 16pt;
+}
+
+#d_infoevent .content{    
+    margin-top: 14px;
+    padding: 2px;
+    width: 98%;
+    max-height: 450px;    
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+#d_infoevent_cont{
+  margin: 20px 20px 15px 20px;
+  font-size: 11pt;
+
+}
+
+.btn_na_karte{
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+
+
+/*  =========== окно параметров класса (из правого справочника) ================== */
+
+#d_infokls{
+  position: fixed;  
+  top: 120px;
+  left: -1000px;
+  z-index: 5;
+  width: 600px;
+  
+  background-color: white;
+  box-shadow: 0 0 5px;
+  padding-left: 40px;  
+  padding-bottom: 20px;
+}
+
+
+#d_infokls_close{
+  float:right;
+  width: 100px;
+  background-color: silver;
+  font-size: 10pt;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+#d_infokls .h{
+  margin: 20px 20px 15px 0px;
+  font-size: 16pt;
+}
+
+#d_infokls .lname{
+  margin: 10px 10px 15px 1px;
+  font-size: 11pt;
+}
+
+
+#d_infokls .content{    
+    margin-top: 14px;
+    padding: 2px;
+    width: 98%;
+    max-height: 450px;    
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+/*  ============================= */
+
+
+
+
+
+
+
+
+
+
+#map{
+	width:100%;
+    height:100%;
+    position:absolute;
+    right:0;
+    top: 0px;
+    bottom:0px;
+}
+
+
+#d_event{
+  background-color: white;  
+  position:absolute; 
+  z-index: 20; top: 120px; left:0px;
+  padding: 8px;
+  width: 220px;
+  box-shadow: 0 0 5px;
+}
+
+#d_event .fevent{
+  margin: 12px 0px 8px 0px;
+  cursor: pointer; 
+}
+#d_event .fevent:first-line{
+ background-color: #dddddd;
+ font-weight: bold;
+}
+span.dataperiod{
+ color: #ff5555;
+ font-size: 8pt;
+}
+
+.type_name{
+ color: #555555;
+ font-size: 8pt;
+}
+
+
+
+h3{ margin: 15px 0px 15px 0px}
+
+#d_calend table{
+  background-color: #eeeeee;  
+}
+
+
+#calendar3 {
+  width: 100%;
+  font: monospace;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+}
+#calendar3 thead tr:last-child {
+  font-size: small;
+  color: rgb(85, 85, 85);
+}
+#calendar3 tbody td {
+  color: rgb(44, 86, 122);
+}
+#calendar3 tbody td:nth-child(n+6), #calendar3 .holiday {
+  color: rgb(231, 140, 92);
+}
+#calendar3 tbody td.today {
+  outline: 3px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
